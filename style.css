@@ -1,0 +1,320 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-position: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+   
+   /*Intro*/
+   .section_1 {
+       height: 300px;
+       width: auto;
+       padding: 60px 0;
+       
+   }
+   
+   .image{
+       height: 160px;
+       width: 160px;
+       border-radius: 60%;
+   
+   }
+   
+   @media only screen and (max-width:343px) {
+       .section_1{
+           height: 400px;
+           width: auto;
+           padding:40px 0px;
+       }
+       
+   }
+   
+   @media only screen and (max-width:196px){
+       .image{
+           height: 140px;
+           width: 140px;
+           border-radius: 60%;
+       
+       } 
+   }
+   
+   @media only screen and (max-width:180px){
+       .image{
+           height: 100px;
+           width: 100px;
+           border-radius: 60%;
+       
+       } 
+   }
+   
+   /*Styles for About Me*/
+   .About{
+       
+       margin-top: 20px;
+       border: 1px solid gray;
+       border-radius:10px;
+       padding-top: 10px;
+       position: relative;
+       transition: all 0.3s ease-in-out;
+   }
+   
+   /*Hoving Effect*/
+   .About:hover{
+       border-width: 2px;
+       border-color: black;
+       transform: scale(1.05);
+   }
+   .About h2{
+   
+       font-size: 30px;
+       font-weight: 500;
+       position: absolute;
+       bottom: 65%;
+       left: 2%;
+       background-color: white;
+       
+   }
+   
+   .About p{
+       margin:10px;
+       margin-left: 20px;
+       font-family: cursive;
+       font-weight: 300;
+   }
+   
+   @media only screen and (max-width:990px){
+   
+       .About{
+       
+           margin-top: 20px;
+           border: 1px solid gray;
+           border-radius:10px;
+           padding-top: 10px;
+           position: relative;
+           
+       }
+   
+       .About h2{
+   
+           font-size: 30px;
+           font-weight: 500;
+           position: absolute;
+           bottom: 75%;
+           left: 2%;
+           background-color: white;
+           
+       }
+   }
+   
+   /*Display About me accoding to the screen size*/
+   @media only screen and (max-width:766px){
+   
+       .About{
+           position: relative;
+           
+       }
+   
+       .About h2{
+           position: absolute;
+           bottom: 80%;
+           left: 2%; 
+       }
+   }
+   
+   @media only screen and (max-width:766px){
+   
+       .About{
+           position: relative;
+           
+       }
+   
+       .About h2{
+           position: absolute;
+           bottom: 80%;
+           left: 2%; 
+       }
+   }
+   
+   @media only screen and (max-width:456px){
+   
+       .About{
+           position: relative;
+           
+       }
+   
+       .About h2{
+           position: absolute;
+           bottom: 82%;
+           left: 2%; 
+       }
+   }
+   
+   @media only screen and (max-width:302px){
+   
+       .About{
+           position: relative;
+           
+       }
+   
+       .About h2{
+           position: absolute;
+           bottom: 88%;
+           left: 4%; 
+       }
+   }
+   
+   @media only screen and (max-width:258px){
+   
+       .About{
+           position: relative;
+           
+       }
+   
+       .About h2{
+           position: absolute;
+           bottom: 90%;
+           left: 5%; 
+       }
+   }
+   
+   @media only screen and (max-width:218px){
+   
+       .About{
+           position: relative;
+           
+       }
+   
+       .About h2{
+           position: absolute;
+           bottom: 92%;
+           left: 5%; 
+       }
+   }
+   
+   
+   
+   /*Skill Section Styles*/
+   
+   .data {
+       transition: all 0.3s ease;
+   }
+   
+   .data:hover{
+       transform: scale(1.2);
+   }
+   
+   .Main_Container h3{
+       
+       text-transform: capitalize;
+       text-rendering: optimizeSpeed;
+      
+       
+   }
+   
+   .Main_Container h4{
+       display: inline;
+       border: 1px solid aqua;
+       border-radius: 5%;
+       padding: 2px;
+      
+       font-size: 20px;
+   }
+   
+   @media only screen and (max-width:338px){
+       .Main_Container h4{
+           text-wrap:nowrap;
+          font-size: 15px;
+           border:none;
+       }
+   }
+   
+   @media only screen and (max-width:230px){
+       .Main_Container h4{
+           text-wrap:wrap;
+          font-size: 15px;
+           border:none;
+       }
+   }
+   
+   
+   /*My Project*/
+   
+   .Image_Container{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 2px;
+       
+   }
+   
+   @media only screen and (min-width:424px){
+       .Cards{
+           width: 15rem;
+           
+       }
+   }
+   
+   /*Footer Style*/
+   .Contact_Me {
+       display: flex;
+       flex-direction: column;
+       gap: 0px !important;
+       flex-wrap: wrap;
+   }
+   
+   .Contact_Me a {
+       height: 30px;
+       width: 30px;
+       text-decoration: none;
+       color:black;
+       border: 1px solid black;
+       padding:2px;
+       border-radius: 50%;
+       
+   }
+   
+   .Contact_Me_div {
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       display: none;
+   }
+   
+   @media only screen and (max-width:234px){
+       .Contact_Me_div{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           
+       }
+   
+       .Contact_Me_p{
+           display: none;
+       }
+   }
+   
+   .Follow_Me {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap:4px;
+       flex-wrap: wrap;
+   }
+   .Follow_Me a{
+       height: 30px;
+       width: 30px;
+       text-decoration: none;
+       color:black;
+       border: 1px solid black;
+       padding:2px;
+       border-radius: 50%;
+   }
+   
+   .Follow_Me a i{
+       width: 100%;
+       height: 100%;
+   
+   }
+   
+   
